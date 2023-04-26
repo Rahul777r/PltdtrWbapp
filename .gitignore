@@ -1,0 +1,45 @@
+# CAP PlantDetermination
+_out
+*.db
+*.sqlite
+connection.properties
+default-*.json
+.cdsrc-private.json
+gen/
+node_modules/
+target/
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+# .vscode
+# .idea
+
+# auto generated wildcard
+db/.env
+app/plantdetermination/dist/Component-preload.js
+app/plantdetermination/dist/plantdetermination.zip
+app/plantdetermination/dist/sap-ui-cachebuster-info.json
+app/plantdetermination/dist/controller/Master-dbg.controller.js
+app/plantdetermination/dist/controller/Master.controller.js
+app/plantdetermination/dist/resources/sap-ui-version.json
+app/salesorder/dist/bconepocsalesordersalesorder.zip
+app/salesorder/dist/Component-preload.js
+app/salesorder/dist/manifest.json
+app/salesorder/dist/sap-ui-cachebuster-info.json
+app/salesorder/dist/resources/sap-ui-version.json
